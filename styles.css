@@ -6,51 +6,93 @@ body{
     background-color: snow;
 }
 
+#baccha{
+position: relative;       
+top: 54.4%;
+left: 5%;
+}
 #title{
     background-color: khaki ;
     margin-top: 0px;
     margin-bottom: 0px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    font-family:'Courier New', Courier, monospace;}
 
 #title2{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bolder; 
 }
 
 #title3{
     background-color:khaki;
 }
 
-#photo{
+#photo{ 
     position: relative;
     top: 19px;
+    padding-bottom: 70px;
+}
+
+.intro{
+    margin: auto;
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+.bolds{
+    color: yellow;
 }
 
 .skillsimg{
-    width: 300px;
-    height: 300px;
-}
-
-#hr{
-    background-color: khaki;
-    width: 100%;
-    height: 5mm;
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 60px;
     position: relative;
-    top:30px;
-
+    top: 25px;
 }
-h2{
-    font-weight: bolder;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.skill-row{
+    width: 50%;
+    margin:100 auto 100 auto;
+    text-align: left;
+    line-height: 2;
+}
+.YP{
     color: yellow;
 }
+.hr{
+    background-color: khaki;
+    width: 100%;
+    height: 3mm;
+    position: relative;
+    top:30px;
+    
+
+}
+h2{ text-align: center;
+    padding-top: 20px;
+    line height : 2;
+    font-weight : bolder;
+    font-family :'Courier New', Courier, monospace;
+    color : yellow;
+}
+
 h3{
     font-weight: bolder;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    color:yellow;
 }
 
 p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     font-size:large;
     color:seashell;
+    font-weight: bold;
+}
+
+#trademark{
+    font-size:large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
